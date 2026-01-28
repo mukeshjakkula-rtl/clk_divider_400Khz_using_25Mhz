@@ -1,4 +1,4 @@
-# clk generation of 400Khz using input clk 25Mhz 
+# clock generation of 400Khz using input clock 25Mhz 
 - 25Mhz period = 40ns | 400Khz period = 2.5micro-s.
 - 25Mhz/400Khz = 62.5 is the counter mod value.
 - the output has to toggle at 31.25 to get 50% duty cycle.
