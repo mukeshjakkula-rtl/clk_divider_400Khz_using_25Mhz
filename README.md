@@ -5,4 +5,5 @@
 - its impossible to get 50% duty cycle for 400Khz frequency because of its decimal mod counter value i.e 62.5 because the toggle has to happen at 31.25 count.
 - we cycle between the half period of 31 and 32 alternatively to minimize the jitter, but still we have the ~1 cycle error.
 - the achived clock frequency is ~383.1Khz.
+- if we need a clean clock we can get it by removing the error bit so it toggles at count 31 we get 381.7Khz frequency. 
 - this small error is acceptable for some low data rate protocols.
