@@ -7,7 +7,7 @@
 - the achived Tperiod is 2600ns so the clock frequency is ~383.1Khz.
 - if we need a clean clock we can get it by removing the error bit so it toggles at count 31 we get 381.7Khz frequency. 
 - this small error is acceptable for some low data rate protocols.
-####updated
+#### updated
 - changed the mod count value to 61(62 states) and the toggle count value to 30(31 states)
 - the achived Tperiod is 2480ns so the clock frequency is 403.2Khz.
 - very close to the desired frequency.
