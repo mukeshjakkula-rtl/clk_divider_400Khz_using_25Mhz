@@ -6,7 +6,7 @@ logic rst;
 logic clk_out;
 
 
-clk_div dut(.clk_in(clk_in),
+clk_divider dut(.clk_in(clk_in),
 	.rst(rst),
 	.clk_out(clk_out));
 
@@ -20,7 +20,7 @@ end
 always #20 clk_in = ~clk_in;
 
 initial begin
-  $dumpfile("clk_wave.vcd");
+  $dumpfile("wave_updated.vcd");
   $dumpvars(0,tb);
 end 
 
