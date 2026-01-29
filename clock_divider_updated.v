@@ -1,3 +1,4 @@
+//achived Tperiod is 2480ns so the clock frequency is 403.2Khz
 module clk_div#(parameter CLK_IN = 25000000,
 			  CLK_OUT = 400000)(
    input wire clk_in,
